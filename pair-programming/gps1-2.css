@@ -1,0 +1,65 @@
+
+      h1 {
+
+          font-size: 40px;
+          text-align: center;
+          font-family: 'Codystar', cursive;
+          color: #9999FF;
+        }
+
+
+      h2 {
+          text-align: center;
+          font-family: 'Codystar', cursive;
+          color: #9999FF;
+
+        }
+
+
+
+      p {
+          font-size: 15px;
+          text-align: center;
+          font-family: 'Lora', serif;
+        }
+
+      .main_content {
+          margin-left: 20px;
+          margin-right: 20px;
+      }
+
+      section {
+          width: 27%;
+          /*height: 40%;*/
+          /*width: 250px;*/
+          height: 400px;
+          float: left;
+          border: 1px solid black;
+          margin-right: 25px;
+          margin-bottom: 20px;
+          padding: 10px;
+      }
+
+      .left-side {
+       /*width: 250px;*/
+        width: 27%;
+        height: 400px;
+        float: left;
+        clear: both;
+      }
+
+      /*.middle-box {
+        width: 27%;
+        height: 27%;
+      }*/
+
+      footer {
+          clear: both;
+      }
+
+      .social_media img {
+          margin-left: ;
+
+      }
+
+
