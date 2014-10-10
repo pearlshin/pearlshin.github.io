@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <title>Ruby Map Method</title>
+</head>
+  <body>
+    <div class="main_container">
+        <div class="main_image">
+          <img src="http://placekitten.com/g/900/200">
+
+        </div>
+      <div class="side_bar">
+        <h1>Pearl Shin</h1>
+
+        <form action="#">
+          <input type="text">
+
+        </form>
+
+        <div class="recent_posts">
+          <p id="side_bar_title">Recent Posts</p>
+          <ul>
+            <li><a href="http://www.facebook.com">Blog Post 1</a></li>
+            <li><a href="https://github.com/pearlshin">Blog Post 2</a></li>
+            <li><a href="https://twitter.com/PearlSShin">Blog Post 3</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="body">
+        <h2><strong>Ruby's Map Method</strong><h2>
+          <p class="date">October 10th, 2014</p>
+          <p class="tags"></p>
+          <p class="text">
+            The map method takes an enumerable object and a block. It runs the block of code on each item of the object. Let's say you had a method called array_to_string that takes an array as an argument and you want to make every item in the array a string.<br><br>
+
+            Example:<br>
+
+            def array_to_string(array)<br>
+
+            end<br><br>
+
+            When you use the map method in the example array_to_string method above, you use the map method on the given argument (array).<br><br>
+
+            def array_to_string(array)<br>
+              array.map {|item| block }<br>
+            end<br><br>
+
+            Inside the curly braces are pipes (||) with a special variable ("item") in between them and the block within the curly braces. The block is the line of code that runs on each item of the array. In this example, we want to change every item in the array into a string so you would write: <br><br>
+
+            def array_to_string(array)<br>
+              array.map {|item| item.to_s }<br>
+            end
+            <br><br>
+            One important thing to keep in mind about the map method is that it creates/outputs a new array. If you called the method like so:
+            <br><br>
+            def array_to_string(array)<br>
+              array.map {|item| item.to_s }<br>
+            end
+            <br>
+            puts array_to_string([1, 2, 3])
+            <br><br>
+            The result would be: ["1", "2", "3"]
+
+
+
+          </br></p>
+      </div>
+      <div class="clear">
+
+      </div>
+    </div>
+
+  <div class="footer">
+
+  </div>
+
+
+  </body>
+</html>
