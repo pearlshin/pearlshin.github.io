@@ -38,6 +38,7 @@
           margin-right: 25px;
           margin-bottom: 20px;
           padding: 10px;
+          display: inline-block;
       }
 
       .left-side {
