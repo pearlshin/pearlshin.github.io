@@ -2,6 +2,7 @@
 <html>
 <head>
   <link type="text/css" rel="stylesheet" href="./cheatsheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
   <title>Cheat Sheet</title>
 </head>
   <body>
@@ -45,7 +46,7 @@
       };</code></pre>
         </section>
 
-        <section>
+        <section id="adding-prop-protoype">
           <h3>Adding Properties to a Prototype</h3>
           <p>You cannot add a new property to a prototype the same way as you add a new property to an existing object, because the prototype is not an existing object.</p>
           <pre name="code" class="javascript"><code>person.nationality = "English";</code></pre>
@@ -61,8 +62,15 @@
         </section>
 
         <section>
-          <h3></h3>
-          <p></p>
+          <h3>Adding Methods to a Prototype</h3>
+          <p>Your constructor function can also define methods:</p>
+          <pre name="code" class="javascript"><code>function person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+    this.name = function() {return this.firstName + " " + this.lastName;};
+}</code></pre>
         </section>
 
 
