@@ -1,39 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link type="text/css" rel="stylesheet" href="./main.css">
-  <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="./index-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Vollkorn' rel='stylesheet' type='text/css'>
   <title>Pearl Shin</title>
 </head>
 
-<body>
-  <div class="main_container">
-    <div class="nav_bar">
-      <a href="http://pearlshin.github.io/"><h1><strong>Pearl Shin</strong></h1></a>
-        <ul>
-          <li><a href="http://pearlshin.github.io/about-me.html">About Me</a></li>
-          <li><a href="http://www.twitter.com">Portfolio</a></li>
-          <li><a href="http://pearlshin.github.io/blog.html">Blog</a></li>
-          <li><a href="http://www.gmail.com">Contact</a></li>
-            <br><form action="#">
-            <input type="text">
-        </ul>
-    </div>
-      <div class="main_img">
-        <img src="http://placekitten.com/g/850/500"/>
-      </div>
 
-  </div>
+  <body>
+    <header>
+      <div id="name">
+        <h1>Pearl Shin</h1>
+      </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="http://pearlshin.github.io/about-me.html">About Me</a>
+            <li><a href="#">Portfolio</a>
+              <ul>
+                <li><a href="#">Project1</a></li>
+                <li><a href="email">Project2</a></li>
+              </ul>
+            <li><a href="http://pearlshin.github.io/blog.html">Blog</a>
+              <ul>
+                <li><a href="#">Blog Post 1</a></li>
+                <li><a href="email">Blog Post 2</a></li>
+              </ul>
+            </li>
+          </ul>
+
+    </header>
+
+
+
+
+<div class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+    <div class="slide">
+      <img src="pearl.jpg" />
+        </div>
+    <div class="nav">
+      <label for="img-6" class="prev">&#x2039;</label>
+      <label for="img-2" class="next">&#x203a;</label>
+    </div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="nyc.jpg" />
+        </div>
+    <div class="nav">
+      <label for="img-1" class="prev">&#x2039;</label>
+      <label for="img-3" class="next">&#x203a;</label>
+    </div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="floral2.jpg" />
+        </div>
+    <div class="nav">
+      <label for="img-2" class="prev">&#x2039;</label>
+      <label for="img-4" class="next">&#x203a;</label>
+    </div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="beach.jpg" />
+        </div>
+    <div class="nav">
+      <label for="img-3" class="prev">&#x2039;</label>
+      <label for="img-5" class="next">&#x203a;</label>
+    </div>
+    </li>
+
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+    </li>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--
+    <div id="mainpicture">
+      <img src="floral.jpg" alt="main image" style="width: 90%; height:650px;"></img>
+    </div> -->
+
 
 </body>
 
 
   <!-- <div class="social_media"> -->
-      <a href="https://twitter.com/PearlSShin"><img src="imgs/facebook.png" alt="Facebook Logo" class="facebook-icon"></a>
+  <footer>
+    <a href="https://twitter.com/PearlSShin"><img src="./twitter.png" alt="Twitter Logo" class="social-icon"></a>
+    <a href="https://www.facebook.com/pearl.shin.90"><img src="./facebook.png" alt="Facebook Logo" class="social-icon"></a>
+    <a href="https://www.gmail.com"><img src="./gmail.png" alt="Gmail Logo" class="social-icon"></a>
 
-      <a href="https://www.facebook.com/pearl.shin.90"><img src="imgs/twitter.jpg" alt="Twitter Logo" class="twitter-icon"></a>
-
-      <a href="https://github.com/pearlshin"><img src="imgs/GitHub.png" alt="Github Logo" class="github-icon"></a>
+  </footer>
   <!-- </div> -->
 
 </html>
