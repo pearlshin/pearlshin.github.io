@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <title>Classes vs Modules</title>
+</head>
+  <body>
+    <div class="main_container">
+        <div class="main_image">
+          <img src="http://placekitten.com/g/900/200">
+
+        </div>
+      <div class="side_bar">
+        <h1>Pearl Shin</h1>
+
+        <form action="#">
+          <input type="text">
+
+        </form>
+
+        <div class="recent_posts">
+          <p id="side_bar_title">Recent Posts</p>
+          <ul>
+            <li><a href="http://www.facebook.com">Blog Post 1</a></li>
+            <li><a href="https://github.com/pearlshin">Blog Post 2</a></li>
+            <li><a href="https://twitter.com/PearlSShin">Blog Post 3</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="body">
+        <h2><strong>Classes vs Modules</strong><h2>
+          <p class="date">October 25th, 2014</p>
+          <p class="tags"></p>
+          <p class="text">Everything in Ruby is an object. Just as objects have properties and functions in real life, Ruby is an object-oriented program that operates similarly in such a way. Classes allow objects to be initialized and assigned to a global constant. For example, you can create a new array (Array.new) because the class Array exists and runs the methods within it. <br><br>
+
+In other object-oriented programming languages, objects may inherit from other classes (a class may have traits from multiple classes). In Ruby, however, multiple inheritances are not allowed and can only have one superclass. Ruby only runs with single inheritance. In other words, a class can only belong (inherit from) to one superclass and this is where modules play a role. While classes are about objects, modules are about functions.<br><br>
+
+As you write bigger Ruby programs, it is common to find yourself reusing chunks of code. Using related methods to apply to your program can overrun each other. Modules provide a namespace (a container for a set of identifiers to give direction to specific identifiers) so that methods and constants can play without worrying about other methods and constants overrunning them. <br><br>
+
+Another useful element of modules is their ability to provide a mixing. A mixing eliminates the need for multiple inheritance if you include a module within a class definition. This allows the module’s instance methods to be available as methods in the class (they get mixed in). Overall, modules provide an easy way to control functionality to classes.
+</br></p>
+      </div>
+      <div class="clear">
+
+      </div>
+    </div>
+
+  <div class="footer">
+
+  </div>
+
+
+  </body>
+</html>

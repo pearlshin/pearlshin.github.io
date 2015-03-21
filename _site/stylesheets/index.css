@@ -1,0 +1,121 @@
+body {
+  width: 1000px;
+  border:1px solid black;
+  margin: 0 auto;
+
+
+}
+
+.main_container {
+  width: 900px;
+  margin: 0 auto;
+  border:1px solid black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+
+.main_image {
+  width: -2000px;
+  margin: 0 auto;
+  border:1px solid black;
+/*  margin-left: -1%;
+  margin-right: 1%;*/
+  padding: 0;
+
+}
+
+.side_bar {
+  border: 1px solid black;
+  float: left;
+  /*padding: 20px 20px 0 0;*/
+ /* padding: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 0px;*/
+  /*left: 10px; top: 10px; bottom: 0px;*/
+  position: absolute;
+
+
+  padding-top: 20px;
+
+
+  margin-top: 10px;
+}
+
+.body {
+  border: 1px solid black;
+  padding-top: 20px;
+  float:right;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.body h2 {
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  /*padding: ;*/
+  width: 100%;
+  text-align: center;
+}
+
+.date {
+  font-size: 12px;
+  text-align:left;
+  font-family: 'Lora', serif;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.body .text {
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Lora', serif;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.clear {
+  clear:both;
+}
+
+#side_bar_title {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  text-align: center;
+
+}
+.recent_posts {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+
+
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  border-left: 10%
+}
+
+a {
+text-decoration: none;
+
+}
+
+a:hover {
+  color: #993399;
+}
+
+.chart {
+  display: table-cell;
+}
