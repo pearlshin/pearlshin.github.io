@@ -1,11 +1,24 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Archives
+permalink: /archives/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<h2>Archives</h2>
+<ul>
+  {% for post in site.posts %}
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+    {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% endif %}
+    {% endunless %}
+
+    <li>{{ post.date | date:"%b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
