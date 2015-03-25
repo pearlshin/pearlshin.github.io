@@ -11,5 +11,5 @@ github_username:  pearlshin
 # Build settings
 markdown: kramdown
 
-collections:
-- archives
+# collections:
+# - archives
