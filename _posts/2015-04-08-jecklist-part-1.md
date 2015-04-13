@@ -18,3 +18,5 @@ What always helps me understand what the first and following steps should be is 
 The technologies we have decided thus far is Rails for the backend and JavaScript and perhaps another framework for the front end. We felt that using a Postgresql database will best serve the functionality of this app.
 
 More to come soon!
+
+<!-- add wireframes in img folder-->
